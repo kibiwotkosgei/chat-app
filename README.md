@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot-mobile.png)
+![](./images/Screenshot.png)
+![](./images/Screenshot-mobile.png)
 
 
 ### Links
@@ -117,14 +117,15 @@ Also,working or correct and perfect workfow in my projects.
 ### Useful resources
 
 - [W3schools website](https://www.w3schools.com/cssref/pr_text_text-align.ASP) - This helped me for alighnment reasons. I wanted to know how all alighnments work and am happy to say that I grasped it and I will use it easily on my way forward.
-- [YouTube video on @media](https://www.youtube.com/watch?v=2KL-z9A56SQ) -This is an amazing video that explains well how to use @media to create responsive websites. I'd recommend it to anyone still learning this concept.
+- [YouTube video](https://www.youtube.com/watch?v=2KL-z9A56SQ) -This is an amazing video that explains well how to use @media to create responsive websites. I'd recommend it to anyone still learning this concept.
 
 
 
 ## Author
 
-- GitHub - [Kibiwot Kosgei](https://github.com/kibiwotkosgei)
 - Frontend Mentor - [@kibiwotkosgei](https://www.frontendmentor.io/profile/kibiwotkosgei)
+- GitHub - [@kibiwotkosgei](https://github.com/kibiwotkosgei)
+
 
 
 
