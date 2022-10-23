@@ -102,7 +102,7 @@ I maximized and enjoyed the use of display:none to test my code.
     margin: auto;  
   }
 }
-}
+```
 
 
 
