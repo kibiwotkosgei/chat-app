@@ -218,6 +218,9 @@ font-size: 18px;
 line-height: 1.5;
 opacity: 45%;
 }
+.eight label{
+  display: none;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

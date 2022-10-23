@@ -129,7 +129,7 @@ Also,working or correct and perfect workfow in my projects.
 
 
 ## Acknowledgments
-- [Lesley Kimutai](https://www.frontendmentor.io/profile/Leskim) Helped debug my code.(git commit -m "I think Mount is very paramount at the bridge.Hahaha")
+- [Lesley Kimutai](https://www.frontendmentor.io/profile/Leskim)  Helped debug my code.(git commit -m "I think Mount is very paramount at the bridge.Hahaha")
 
 - [Kibenon Collins](https://www.frontendmentor.io/profile/collinskibenon)-Challenged me to do this cahllenge,guided me and was very insightful and inspiring.
 
