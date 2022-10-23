@@ -28,22 +28,26 @@
 body {
   font-size: 10px;
   background-color: hsl(270, 20%, 96%);
-  height: 100vh;
-  display: flex;
+  height: 100vh; 
+  display: flex; 
   flex-direction: column;
   font-family: "Rubik";
 }
-
-main {
-  width: 280px;
+main{
+  width:95%;
+  max-width: 1000px;
+}
+.outerphone {
   align-items: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   margin: auto;
   margin-top: 50px;
+  width: 300px;
   box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
-}
+  padding: 1px;
 
+}
 .phone {
   border-radius: 20px;
   margin: 12px;
@@ -64,8 +68,8 @@ main::before {
 
 main::after {
   content: "";
-  background-color: hsl(289, 100%, 72%);
-  opacity: 3%;
+  background-image:linear-gradient(to top,var(--LightMagenta),var(--LightViolet));
+  opacity: 4%;
   height: 400px;
   width: 200px;
   border-radius: 150px 0px 0px;
@@ -117,8 +121,8 @@ span {
   color: var(--GrayishBlue);
   font-size: 8px;
 }
-.pictures {
-  padding-left: 90px;
+.pictures { 
+  padding-left: 110px;
 }
 .pictures img {
   border-radius: 10px;
@@ -129,7 +133,7 @@ span {
   display: flex;
   background-color:hsl(300, 6%, 91%);
   border-radius: 10px 10px 10px 3px;
-  width: 150px;
+  width: 60%;
   color:hsl(293, 52%, 64%);
   margin: 10px;
   padding: 5px 5px;
@@ -155,29 +159,29 @@ span {
   padding-right: 15px;
 }
 .coloured{   
-    width:180px ;
-    color: hsl(0, 0%, 100%);
-    background-image:linear-gradient(to right,var(--LightMagenta),var(--LightViolet));
+  width:70% ;
+  color: hsl(0, 0%, 100%);
+  background-image:linear-gradient(to right,var(--LightMagenta),var(--LightViolet));
     gap: 5px;
            
   }
   .walktime{
     padding-top: 5px;
   }
-
-.rightconvo{
+  
+  .rightconvo{
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px 5px 2px 5px;
-    width: 150px;
+    width: 60%;
     color:hsl(270, 7%, 64%);
     margin: 10px;
     margin-left: auto;
     padding: 5px 5px;        
     
-}
-.eight{
-  padding: 15px 0 12px 12px;
-  position: relative;  
+  }
+  .eight{
+    padding: 15px 0 12px 12px;
+    position: relative;  
 }
 .eight input{
   border-radius: 20px;
@@ -185,9 +189,11 @@ span {
   width: 230px;
   border: 0;
   padding-left: 14px ;
+  opacity: 40%;
+  background-color: var(--White);
 }
 .round{
-  padding: 5px ;
+  padding: 2px ;
   background-color:hsl(271, 36%, 24%);
   border-radius: 50%;
   position: absolute;
@@ -195,6 +201,7 @@ span {
   top: 5px;
   margin-top: 15px;
   right: 22px;  
+  border: 0;
 }
 .simplebooking{
   text-align: center;
@@ -210,8 +217,6 @@ span {
 font-size: 18px;
 line-height: 1.5;
 opacity: 45%;
-
-
 }
 .attribution {
   font-size: 11px;
@@ -219,4 +224,26 @@ opacity: 45%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media  screen and (min-width:620px) {
+
+  main::before{
+    height: 80%;
+    width:310px;
+    border-radius: 0 0 200px 200px;
+  }
+  main::after{
+    height: 80%;
+    width:310px;
+    border-radius: 200px 180px 0 0;
+  }
+  main{
+    margin: auto 0px auto 245px ; 
+    display: flex;
+    gap: 50px;            
+  }
+  .simplebooking{
+    text-align: left; 
+    margin: auto;  
+  }
 }
